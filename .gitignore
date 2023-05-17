@@ -1,0 +1,6 @@
+*.o
+*.obj
+*.gch
+*.pch
+*.a
+*.out
