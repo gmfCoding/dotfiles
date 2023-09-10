@@ -3,7 +3,6 @@ Plug 'preservim/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdcommenter'
-Plug 'gilligan/vim-lldb'
 call plug#end()
 
 " WSL yank support
