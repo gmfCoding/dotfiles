@@ -1,0 +1,9 @@
+[user]
+	email = gmfCoding@users.noreply.github.com
+	name = Christopher Lovell
+[alias]
+	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f"
+	hidedel = "!for i in `git status | grep deleted | awk '{print $2}'`; do git update-index --assume-unchanged $i; done"
+	unhidedel = "!for i in `git ls-files -v | grep '^h' | awk '{print $2}'`; do git update-index --no-assume-unchanged $i; done"
+[core]
+	autocrlf = false
