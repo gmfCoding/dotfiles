@@ -1,0 +1,15 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPlugin": {
+        "Id": "tile-top-to-max",
+        "Name": "Tile Top to Max",
+        "Description": "When a window is tiled to top-left or top-right and the same action is invoked again, make the window fullscreen (maximized both horizontally and vertically).",
+        "Icon": "view-fullscreen",
+        "Authors": [{ "Name": "Unknown" }],
+        "Category": "Window Management"
+    },
+    "KPlugin_EnabledByDefault": true,
+    "Version": "1.0"
+}
